@@ -37,7 +37,6 @@ import DashboardPlugin from "./material-dashboard";
 import ElementUI from "element-ui";
 import "element-ui/lib/theme-chalk/index.css";
 import "./assets/css/NanoSoft.css";
-import "./assets/css/fonts.css";
 Vue.use(ElementUI);
 // Plugins
 import App from "./App.vue";

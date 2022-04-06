@@ -472,7 +472,7 @@
             <!-- PDF Content Here -->
             
             <md-card-content class="redirect-dir">
-              <div style="padding:25pt">
+              <div style="padding:30pt">
                 <md-table
                   :value="pdfData"
                   :md-sort.sync="currentSort"
@@ -591,7 +591,8 @@
                 </md-table>
               </div>
             </md-card-content>
-            <h3 class="text-center" style="font-family: Amiri-Regular; text-decoration: underline dotted black">توقيع رئيس قسم الموارد البشرية</h3>
+            <h3 class="text-center">توقيع رئيس قسم الموارد البشرية</h3>
+            <h3 class="text-center">.................................</h3>
           </section>
         </vue-html2pdf>
 
@@ -3299,7 +3300,7 @@ export default {
       companyName: "",
       companyDesc: "",
       htmlToPdfOptions: {
-        margin: [80, 0, 30, 0],
+        margin: [90, 0, 50, 0],
         filename: `Staff Report.pdf`,
         jsPDF: {
           format: "a2",
