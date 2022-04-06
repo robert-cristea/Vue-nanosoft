@@ -1,0 +1,97 @@
+
+.p-25 {
+    padding: 25px;
+  }
+  .mt-25 {
+    margin-top: 25px;
+  }
+  .ml-15 {
+    margin-left: 15px;
+  }
+  .md-field label {
+    left: auto !important;
+    color: black !important;
+  }
+  .mtb-25{
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  .mtb-20{
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .mt-50{
+    margin-top: 50px;
+  }
+  .center-content{
+      display: flex;
+      justify-content: center;
+  }
+  .input-width-60-center{
+    width: 60%;
+    margin : 0 auto;
+  }
+  .input-width-50-center{
+    width: 50%;
+    margin : 0 auto;
+  }
+  .input-width-60{
+    width: 60%;
+  }
+  .input-width-50{
+    width: 50%;
+  }
+  .md-card .md-card-actions {
+    border: none;
+  }
+  
+  .text-center {
+    justify-content: center !important;
+  }
+  .btn_nanosoft {
+    margin-right: 12px !important;
+  }
+  .md-field .success.md-icon,
+  .md-field .error.md-icon {
+    left: 0 !important;
+    right: auto !important;
+  }
+  .tableOverride {
+    width: 10px !important;
+    max-width: 10px !important;
+  }
+  .margin_top {
+    margin-top: -20px;
+  }
+  .md-field.md-theme-default.md-focused .md-input,
+  .md-field.md-theme-default.md-focused .md-textarea,
+  .md-field.md-theme-default.md-has-value .md-input,
+  .md-field.md-theme-default.md-has-value .md-textarea {
+    overflow: auto;
+  }
+
+  .md-card .md-card-content .md-form-label {
+    display: contents;
+  }
+  .flex-content-left{
+    display: flex;
+    justify-content: left;
+    flex-flow: row-reverse;
+  }
+
+  .md-field.md-form-group:after, .md-field.md-form-group:before, .md-field.md-datepicker:after, .md-field.md-datepicker:before{
+    width: auto !important;
+  }
+  .md-list-item-text {
+    align-items: flex-end !important;
+    line-height: 1.75em!important;
+}
+.custom-file-upload {
+  border: 1px solid #ccc;
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+.mr-28 {
+  margin-right: 28px
+}
